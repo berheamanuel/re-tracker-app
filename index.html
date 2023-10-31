@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RxTracker</title>
+    <title>health guardian</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
+
 <body>
-    
+    <div class="header">
+        <h1>Rx<span class="seo">Track</span>er</h1>
+        <h4>stay healthy,stay on track!</h4>
+
+    </div>
+
+    <div class="text">
+
+        <h3>
+            <p>welcome to RxTracker!Manage your health and experience comprehensive health care delivery,<br> reach your
+                goals and never worry about mising a dose again</p>
+        </h3><br><br><br>
+
+        <img src="/Users/chukwukaizamoje/2/travel-with-medicine.jpg" height="400px" ,width="400px">
+
+    </div>
+
+    <div class="container">
+
+        <div>
+            <button onclick="showForm()" type="button" class="btn btn-primary m-1">Sign up</button>
+        </div>
+
+        <div style="margin-left: 50%; height: 100px;">
+            <form action="action_page.php" style="border:1px solid #ccc">
+                <div class="container">
+                    <h3>Sign in</h3>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.
+                    </p>
+                    <div class="clearfix">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign in</button>
+                    </div>
+                </div>
+            </form>
+
 </body>
+
 </html>
