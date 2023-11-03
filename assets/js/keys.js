@@ -1,1 +1,0 @@
-var API_KEY_FIREBASE = "AIzaSyBZjeTlyL2WABSR-hUlGP-Hzmxx995dmhM";
