@@ -140,33 +140,49 @@
         <!-- Page Layout -->
         <div class="row main-page">
             <div class="col s3">
-                <!-- Perscription List -->
+
+
+
+
+
+
+                <!-- Pcription List -->
                 <div class="card">
                     <h5 class="card-header ">Add Prescription</h5>
                     <form id="user-form" class="card-body">
                         <label class="form-label" for="prescription">Prescription</label>
-                        <input name="prescription" id="prescription" type="text" autofocus="true" class="form-input">
-                        <button type="submit" class="btn" id="add-Btn">Add</button>
+                        <input name="prescription" id="input-box" type="text" autofocus="true" class="form-input">
+                        <button onclick="addTask()" type="submit" class="btn" id="add-Btn">Add</button>
                         <div class="prescription-list-box">
-                            <ul class="list-group" id="rx-list"></ul>
+                            <ul class="list-group" id="list-container">
+                                <li class= "checked">
+                                    <li>Task 1</li>
+                                <li>Task 2</li>
+                            <li> Task 3</li>
+                            </ul>
                         </div>
                     </form>
                 </div>
             </div>
 
             <div class="col s9">
+
                 <!-- calander  -->
                 <div class="container">
                     <div class="calendar light">
                         <div class="calendar_header">
-                            <h1 class="header_title">Welcome Back</h1>
+                            <h1 class="header_title">Prescriptions</h1>
                             <p class="header_copy"> Calendar Plan</p>
                         </div>
                         <div class="calendar_plan">
-                            <div class="cl_plan">
-                                <div class="cl_title">Today</div>
-                                <div class="cl_copy">22nd April 2018</div>
-                                <div class="cl_add">
+
+
+                            
+                            <div class="cl_plan"><p>DAY</p>
+                                <div class="cl_title" id="date"><p class="cl_copy" id="day"></p></div><br>
+                                <p id="month"></p>
+                                <p id="year"></p>
+                                 <div class="cl_add">
                                     <i class="fas fa-plus"></i>
                                 </div>
                             </div>
@@ -205,6 +221,21 @@
             </div>
 
         </div>
+<!-- Notification popup modal CODE We just need to decide where to place it.--------------------------- -->
+<!-- <div class="modalContainer">
+    <button type="submit" class="modalBtn" onclick="openPopup()">This is a button</button>
+    <div class="popup" id="popup">
+      
+      <h2>You clicked it!</h2>
+      <p>Your details have been saved hooray!</p>
+      <button type="button" onclick="closePopup()">OK</button>
+    </div>
+  </div>
+ -->
+
+
+
+
         <script type="module">
             // Import the functions you need from the SDKs you need
             import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
@@ -268,6 +299,7 @@
                 signUp(email, password);
             });
         </script>
+       
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="./assets/js/keys.js"></script>
         <script src="./assets/js/script.js"></script>
