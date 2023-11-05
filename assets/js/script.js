@@ -6,7 +6,7 @@ var mainPage = $('.main-page');
 var signUpCard = $('.signup');
 var signUpFormBtn = $('#signUpM');
 
-
+// firebase configration
 const firebaseConfig = {
    apiKey: "AIzaSyBZjeTlyL2WABSR-hUlGP-Hzmxx995dmhM",
    authDomain: "rxtracker-c03e8.firebaseapp.com",
