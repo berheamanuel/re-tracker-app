@@ -20,11 +20,16 @@ Provides one-to-one guidance on nutrition, sleep, emotional well-being, movement
 * WHEN I take my  scheduled prescription
 * THEN I am presented with a saved checklist of my session for the day
 
+## Deployed Application Link
+* https://berheamanuel.github.io/rx-tracker-app/
+
 ## Screenshot
 
-![alt text](assets/images/screenshot.png)
+![alt text](assets/Images/Screenshot-1.png)
+![alt text](assets/Images/Screenshot-2.png)
+![alt text](assets/Images/Screenshot-3.png)
 
-##
+## Reference
 
 * https://www.passportjs.org/
 * https://github.com/firebase/firebaseui-web
