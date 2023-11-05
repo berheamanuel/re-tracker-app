@@ -37,9 +37,8 @@ function signUp(email, password) {
       });
 
    if (email && password) {
-      // mainPage.removeAttr('class', 'hide');
-      signUpCard.attr('class', 'hide');
-      signInCard.removeAttr('class', 'hide');
+      mainPage.removeAttr('class', 'hide');
+      signUpCard.attr('class', 'hide');      
    } else {
       alert('sign-up failed. please try again.');
    }
