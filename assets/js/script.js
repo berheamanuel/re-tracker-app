@@ -8,7 +8,7 @@ var signUpFormBtn = $('#signUpM');
 
 
 const firebaseConfig = {
-   apiKey: API_KEY_FIREBASE,
+   apiKey: "AIzaSyBZjeTlyL2WABSR-hUlGP-Hzmxx995dmhM",
    authDomain: "rxtracker-c03e8.firebaseapp.com",
    projectId: "rxtracker-c03e8",
    storageBucket: "rxtracker-c03e8.appspot.com",
